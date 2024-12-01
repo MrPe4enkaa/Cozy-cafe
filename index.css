@@ -446,7 +446,7 @@ body {
 
 @media screen and (max-width: 630px) {
     .flex {
-        width: 95%;
+        width: 90%;
     }
     .hBig {
         font-family: InterBold;
