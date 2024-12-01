@@ -8,9 +8,11 @@
     src: url(fonts/InterBold.ttf);
 }
 
+html,
 body {
     height: 100%;
-    margin: 0;
+    margin: 0%;
+    padding: 0%;
     background-color: #efece6;
 }
 
@@ -41,6 +43,9 @@ body {
 .bodyes {
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .flex {
@@ -48,6 +53,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
     width: 60%;
 }
 
@@ -444,9 +451,14 @@ body {
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (min-width: 320px) and (max-width: 630px) {
+    .bodyes {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
     .flex {
-        width: 90%;
+        width: 80%;
     }
     .hBig {
         font-family: InterBold;
@@ -495,11 +507,21 @@ body {
     }
     #mainImg {
         max-width: none;
-        min-width: none;
-        min-height: none;
+        min-width: 0;
+        min-height: 0;
         width: 100%;
         height: auto;
         object-fit: cover;
         max-height: 300px;
+    }
+    .welcome,
+    .savor,
+    .atmosphere,
+    .story,
+    .menu,
+    .indulge,
+    .relax {
+        margin: 20px;
+        padding: 20px 0px 20px 0px;
     }
 }
