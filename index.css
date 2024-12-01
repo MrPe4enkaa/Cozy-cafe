@@ -111,9 +111,6 @@ body {
     align-content: center;
     align-items: flex-start;
     padding: 40px;
-    .h {
-        margin: 10px;
-    }
 }
 
 .savor2 {
@@ -143,9 +140,6 @@ body {
     align-content: center;
     align-items: flex-start;
     padding: 40px;
-    .h {
-        margin: 10px;
-    }
 }
 
 .atmosphere2 {
@@ -244,9 +238,6 @@ body {
     align-content: center;
     align-items: flex-start;
     padding: 40px;
-    .h {
-        margin: 10px;
-    }
 }
 
 .menu2 {
@@ -282,9 +273,6 @@ body {
     align-content: center;
     align-items: flex-start;
     padding: 40px;
-    .h {
-        margin: 10px;
-    }
 }
 
 .indulge2 {
@@ -314,9 +302,6 @@ body {
     align-content: center;
     align-items: flex-start;
     padding: 40px;
-    .h {
-        margin: 10px;
-    }
 }
 
 .relax2 {
@@ -345,6 +330,26 @@ body {
     object-fit: cover;
 }
 
+.savor1 {
+    margin: 10px;
+}
+
+.atmosphere1 {
+    margin: 10px;
+}
+
+.menu1 {
+    margin: 10px;
+}
+
+.indulge1 {
+    margin: 10px;
+}
+
+.relax1 {
+    margin: 10px;
+}
+
 @media screen and (max-width: 1581px) and (min-width:1050px) {
     .flex {
         width: 80%;
@@ -364,6 +369,7 @@ body {
         font-family: InterBold;
         font-size: 38px;
         color: #282824;
+        white-space: normal;
     }
     .hMini {
         font-family: InterBold;
@@ -441,6 +447,26 @@ body {
 @media screen and (max-width: 630px) {
     .flex {
         width: 95%;
+    }
+    .hBig {
+        font-family: InterBold;
+        font-size: 44px;
+        color: #282824;
+    }
+    .h {
+        font-family: InterBold;
+        font-size: 32px;
+        color: #282824;
+    }
+    .hMini {
+        font-family: InterBold;
+        font-size: 22px;
+        color: #4A4A45;
+    }
+    .p {
+        font-family: Inter;
+        font-size: 16px;
+        color: #4A4A45;
     }
     .welcome {
         display: flex;
