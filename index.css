@@ -521,7 +521,6 @@ body {
     .menu,
     .indulge,
     .relax {
-        margin: 20px;
-        padding: 20px 0px 20px 0px;
+        padding: 20px;
     }
 }
