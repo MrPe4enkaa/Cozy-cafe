@@ -25,8 +25,7 @@ This project is a modern and stylish website for a cozy cafe. It is built using 
 ## Installation and Usage
 ### 1. Clone the repository
 ```sh
-git clone <REPO_URL>
-cd <project_folder>
+git clone git@github.com:MrPe4enkaa/Cozy-cafe.git
 ```
 ### 2. Open in a browser
 Simply open `index.html` in your preferred browser.
